@@ -1,0 +1,42 @@
+Funcionalidades Implementadas
+- Adicionar item ao carrinho**
+- Valida se o produto existe.
+- Valida se há estoque suficiente.
+- Atualiza o carrinho e reduz o estoque.
+
+- Remover item do carrinho
+- Valida se o produto está no carrinho.
+- Restaura o estoque após a remoção.
+
+- Listar itens do carrinho
+- Exibe os itens com nome, quantidade, subtotal e total.
+
+- Calcular total
+- Soma todos os subtotais.
+- Aplica o cupom de desconto DESCONTO10 (10% de desconto).
+
+---
+
+    Casos de Uso (Exemplos)
+
+    Caso 1 — Usuário adiciona um produto válido
+    Entrada: Produto ID = 1, Quantidade = 2  
+    Resultado esperado: Produto é adicionado ao carrinho, estoque atualizado.  
+
+    Caso 2 — Usuário tenta adicionar além do estoque
+    Entrada:** Produto ID = 3, Quantidade = 10  
+    Resultado esperado:** Mensagem de erro → “Estoque insuficiente”.  
+
+    Caso 3 — Usuário remove um produto do carrinho
+    Entrada:** Remover produto com ID = 2  
+    Resultado esperado:** Produto removido, estoque restaurado.  
+
+    Caso 4 — Aplicação de cupom de desconto
+    Entrada: Cupom = DESCONTO10  
+    Resultado esperado: Valor total reduzido em 10%.  
+
+---
+
+ Autores
+- Lucas Nunes Alves da Silva(1996656), Marcos Vinicius da silva(1997272)
+-  link do localhost http://localhost/PRD/PRD/src/
